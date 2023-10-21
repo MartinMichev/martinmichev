@@ -1,1 +1,9 @@
-
+name: Demo
+run-name: Demo
+on: [push]
+jobs:
+    Start:
+        runs-on: ubuntu-latest
+        steps:
+            -run: echo "Welcome to BGJUG"
+            
