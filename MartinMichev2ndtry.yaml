@@ -1,0 +1,8 @@
+name: Demo
+run-name: Demo
+jobs:
+    start:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Welcome to BG"
+            
